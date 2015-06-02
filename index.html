@@ -14,6 +14,8 @@ title: index
                     <h2>{{ entry.title }}</h2>
                 {% when 'h3' %}
                     <h3>{{ entry.title }}</h3>
+                {% when 'h4' %}
+                    <h4>{{ entry.title }}</h4>
             {% endcase %}
 
             {{ entry.content }}

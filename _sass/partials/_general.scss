@@ -209,3 +209,7 @@ iframe{
     box-sizing: border-box;
     width: 100%;
 }
+
+p + p{
+    margin-top: 20px;
+}

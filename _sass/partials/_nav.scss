@@ -1,5 +1,5 @@
 // Overview
-.overview{
+.overview {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -8,55 +8,51 @@
     transition: .3s all;
     background: $white;
     border-right: 3px solid $green;
-
-    ul{
+    ul {
         list-style: none;
         counter-reset: nested-counter;
         padding-left: 0;
-
         li {
             counter-increment: nested-counter;
             font-size: 98%;
         }
     }
-
-    #nav{
+    #nav {
         width: 100%;
         box-sizing: border-box;
-
-        > li{
+        > li {
             border-bottom: 1px solid rgba($green, .3);
-            a{
+            a {
                 display: block;
                 padding: 10px 20px;
                 line-height: 1;
                 border-bottom: 1px solid rgba($green, .2);
-
                 &:before {
                     content: counters(nested-counter, ".") " ";
                     font-size: 0;
                 }
-
-                &:hover{
+                &:hover {
                     background: rgba($green, .1);
                 }
             }
-
-            li{
-                a{
+            li {
+                a {
                     padding: 8px 30px;
                 }
-
-                li{
-                    a{
+                li {
+                    a {
                         padding: 6px 40px;
+                    }
+                    li {
+                        a {
+                            padding: 4px 50px;
+                        }
                     }
                 }
             }
         }
-
-        .current{
-            > a{
+        .current {
+            > a {
                 &:before {
                     font-size: 1em;
                 }
@@ -65,8 +61,8 @@
     }
 }
 
-.current{
-    > a{
+.current {
+    > a {
         font-weight: $bold;
     }
 }
