@@ -7,14 +7,14 @@ title: Level four
 ---
 A Subsection of a level 4 will look like this
 
-```yml
+{% highlight yml %}
 ---
 sectionid: UNIQUE-ID
 sectionclass: h4
 title: TITLE
 parent-id: UNIQUE-ID-Of-PARENT
 ---
-```
+{% endhighlight %}
 
 So the `parent-id` is where you will reference the anchor of the h3 section that's your subsections parent.
 

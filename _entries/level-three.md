@@ -7,19 +7,19 @@ title: Level three
 ---
 A Subsection of a level 3 will look like this
 
-```yml
+{% highlight yml %}
 ---
 sectionid: UNIQUE-ID
 sectionclass: h3
 title: TITLE
 parent-id: UNIQUE-ID-Of-PARENT
 ---
-```
+{% endhighlight %}
 
 So the `parent-id` is where you will reference the anchor of the h2 section that's your subsections parent.
 
 Level 3 sections can have children, the variable to use is the same. To have children add
 
-```yml
+{% highlight yml %}
 is-parent: yes
-```
+{% endhighlight %}

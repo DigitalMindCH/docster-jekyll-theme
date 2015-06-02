@@ -11,7 +11,7 @@ In this section I'll just quickly plop in the code, in case you would like to ha
 
 **default 3-level:**
 
-```html
+{% highlight html %}
 {% raw %}
 <ul id="nav">
     {% assign level-1 = site.entries | where: "sectionclass", "h1" | sort: "number"%}
@@ -42,11 +42,11 @@ In this section I'll just quickly plop in the code, in case you would like to ha
     {% endfor %}
 </ul>
 {% endraw %}
-```
+{% endhighlight %}
 
 **4-level nav:**
 
-```html
+{% highlight html %}
 {% raw %}
 <ul id="nav">
     {% assign level-1 = site.entries | where: "sectionclass", "h1" | sort: "number"%}
@@ -87,4 +87,4 @@ In this section I'll just quickly plop in the code, in case you would like to ha
     {% endfor %}
 </ul>
 {% endraw %}
-```
+{% endhighlight %}

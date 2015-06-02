@@ -9,7 +9,7 @@ There is very few configuration to be done before you are up and running, still 
 
 In the `_config.yml`-file:
 
-```yml
+{% highlight yml %}
 # name of the docs
 name: Docster Documentation
 
@@ -18,7 +18,7 @@ author: DigitalMind
 
 # docs version
 version: V 1.0
-```
+{% endhighlight %}
 
 All of these infos will be displayed on the top left-hand corner.
 
