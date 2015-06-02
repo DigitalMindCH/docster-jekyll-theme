@@ -37,14 +37,17 @@ section{
     > p,
     > ul,
     > ol,
-    > div,
-    pre {
+    > div{
         text-align: justify;
         padding-left: 5%;
         padding-right: 5%;
         box-sizing: border-box;
     }
 
+    pre {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     > ol{
         padding-left: calc(5% + 40px);
     }
