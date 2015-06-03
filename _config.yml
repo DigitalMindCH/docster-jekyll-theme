@@ -8,6 +8,7 @@ defaults:
     values:
       layout: "index"
 markdown: kramdown
+highlighter: pygments
 kramdown:
   input: GFM
 relative_permalinks: false
