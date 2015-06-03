@@ -13,8 +13,8 @@ relative_permalinks: false
 collections:
 - entries
 sass:
-    sass_dir: _sass
-    style: :compressed
+  sass_dir: _sass
+  style: :compressed
 exclude: [
 .git,
 .gitignore,
