@@ -10,7 +10,6 @@ defaults:
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 relative_permalinks: false
 collections:
 - entries
