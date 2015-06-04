@@ -7,7 +7,7 @@ title: Level two
 ---
 A Subsection of a level-2 will look like this
 
-{% highlight yml %}
+{% highlight yaml %}
 ---
 sectionid: UNIQUE-ID
 sectionclass: h2
@@ -20,6 +20,6 @@ So the `parent-id` is where you will reference the anchor of the h1 section that
 
 Level 2 sections can have children, the variable to use is the same. To have children add
 
-{% highlight yml %}
+{% highlight yaml %}
 is-parent: yes
-{% endhighlight %}```
+{% endhighlight %}

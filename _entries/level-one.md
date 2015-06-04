@@ -7,7 +7,7 @@ title: Level one
 ---
 If you want to create one of the main sections, you will need to include the following front matter within your entry:
 
-{% highlight yml %}
+{% highlight yaml %}
 ---
 sectionid: UNIQUE-ID
 sectionclass: h1
@@ -17,7 +17,7 @@ title: TITLE
 
 If you want your section to have subsections, add
 
-{% highlight yml %}
+{% highlight yaml %}
 is-parent: yes
 {% endhighlight %}
 

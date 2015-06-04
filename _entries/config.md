@@ -9,7 +9,7 @@ There is very few configuration to be done before you are up and running, still 
 
 In the `_config.yml`-file:
 
-{% highlight yml %}
+{% highlight yaml %}
 # name of the docs
 name: Docster Documentation
 

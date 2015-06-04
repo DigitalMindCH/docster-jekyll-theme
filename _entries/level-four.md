@@ -7,7 +7,7 @@ title: Level four
 ---
 A Subsection of a level 4 will look like this
 
-{% highlight yml %}
+{% highlight yaml %}
 ---
 sectionid: UNIQUE-ID
 sectionclass: h4
