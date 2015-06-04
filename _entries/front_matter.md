@@ -8,6 +8,7 @@ title: Front Matter
 For the second version, you define a font matter variable `number` So to go with the files from before, this is what this method would look like (under the file name, the front matter.)
 
 <p style="font-family: 'Source Code Pro', 'Courier New', monospace;">
+<pre>
 ├── intro.md
 │   └── number: 1000
 │
@@ -42,4 +43,5 @@ For the second version, you define a font matter variable `number` So to go with
 │   └── number: 3114
 │
 └── and so on...
+</pre>
 </p>
