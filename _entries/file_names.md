@@ -8,7 +8,7 @@ title: File Names
 The first option is just prefixing all of your files with file names.
 
 So your files might look something like this:
-
+<p style="font-family: 'Source Code Pro', 'Courier New', monospace;">
 ├── 01 intro.md
 │
 ├── 02 set_up.md
@@ -32,3 +32,4 @@ So your files might look something like this:
 ├── 03-01-01-04 level_four.md
 │
 └── and so on...
+</p>
