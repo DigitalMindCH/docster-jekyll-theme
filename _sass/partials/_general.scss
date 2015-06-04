@@ -16,16 +16,25 @@ body{
 }
 
 .overview{
-    width: 350px;
+    width: 320px;
     font-size: 18px;
 }
 
 .content{
     counter-reset: h1-counter;
-    width: calc(100% - 350px);
+    width: calc(100% - 320px);
     position: absolute;
     right: 0;
-    top: 0;
+    
+    @media screen and (max-width: $sidebar-collapse){
+        width: 100%;
+    }
+
+    .toggle{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
 }
 
 section{

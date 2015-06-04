@@ -7,11 +7,13 @@
     <body>
         <div class="container">
             <div class="overview">
+                <span class="toggle">close</span>
                 {% include header.html %}
                 {% include nav.html %}
             </div>
 
             <div class="content">
+                <span class="toggle">open</span>
                 {{ content }}
             </div>
         </div>
