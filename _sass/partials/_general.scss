@@ -44,6 +44,10 @@ section{
         box-sizing: border-box;
     }
 
+    pre {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     > ol{
         padding-left: calc(5% + 40px);
     }
