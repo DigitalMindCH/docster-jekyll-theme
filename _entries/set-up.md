@@ -5,7 +5,7 @@ is-parent: yes
 title: Set Up
 number: 2000
 ---
-Setting Docster up is super simple. Just like with all jekyll-sites you just need a GitHub account to host it. Docster is independant of any plugins so the only requirement is jekyll to have a look at it.
+Setting Docster up is super simple. Just like with all jekyll-sites you just need a GitHub account to host it. Docster is independent of any plugins so the only requirement is a jekyll installation to check the result before pushing.
 
 So download this theme, navigate into the folder, open a terminal and type
 

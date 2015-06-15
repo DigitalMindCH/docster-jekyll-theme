@@ -22,4 +22,4 @@ version: V 1.0
 
 All of these infos will be displayed on the top left-hand corner.
 
-Of course you can also go in and change the sass-output-format or use pygments as your highlighter (or whatever else you want to change in your configuration file)
+Of course you can also go in and change the sass-output-format or change whatever else you want to adjust.
