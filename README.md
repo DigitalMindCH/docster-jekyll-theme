@@ -1,4 +1,4 @@
-# Twister
+# Docster
 ![docster preview](https://raw.githubusercontent.com/DigitalMindCH/docster-jekyll-theme/gh-pages/img/docster_preview.jpg)
 
 ## simple and easy
