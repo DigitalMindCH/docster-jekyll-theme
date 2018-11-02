@@ -17,7 +17,7 @@ $sidebar-collapse: 1000px;
 }
 // @extend %clearfix
 
-%paddinghack{
+%paddinghack {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ $sidebar-collapse: 1000px;
 }
 // @extend %visuallyhidden
 
-%center{
+%center {
     display: block;
     position: relative;
     margin: 0px auto;

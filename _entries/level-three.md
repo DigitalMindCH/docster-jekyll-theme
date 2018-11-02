@@ -17,9 +17,3 @@ parent-id: UNIQUE-ID-Of-PARENT
 {% endhighlight %}
 
 So the `parent-id` is where you will reference the anchor of the h2 section that's your subsections parent.
-
-Level 3 sections can have children, the variable to use is the same. To have children add
-
-{% highlight yaml %}
-is-parent: yes
-{% endhighlight %}

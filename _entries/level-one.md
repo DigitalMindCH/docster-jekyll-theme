@@ -15,10 +15,5 @@ title: TITLE
 ---
 {% endhighlight %}
 
-If you want your section to have subsections, add
-
-{% highlight yaml %}
-is-parent: yes
-{% endhighlight %}
 
 The ID is important, because it will be used as the anchor for the scrollToLinks and it is also used within the subsections. So each child needs to tell jekyll what its parent is, before it can be placed correctly.

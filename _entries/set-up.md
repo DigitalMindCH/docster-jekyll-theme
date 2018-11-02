@@ -1,7 +1,6 @@
 ---
 sectionid: set-up
 sectionclass: h1
-is-parent: yes
 title: Set Up
 number: 2000
 ---

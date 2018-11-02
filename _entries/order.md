@@ -2,7 +2,6 @@
 sectionid: order
 sectionclass: h3
 parent-id: collection-entries
-is-parent: yes
 number: 3120
 title: Order
 ---

@@ -2,7 +2,6 @@
 sectionid: section-types
 sectionclass: h3
 parent-id: collection-entries
-is-parent: yes
 number: 3110
 title: Section Types
 ---

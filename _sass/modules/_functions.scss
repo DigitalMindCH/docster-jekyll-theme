@@ -1,9 +1,9 @@
-@function set-button-shadow($c){
+@function set-button-shadow($c) {
     @if (lightness($c) >= 70) {
         @return 8%;
     }
 
-    @if (lightness($c) <= 69){
+    @if (lightness($c) <= 69) {
         @return 14%;
     }
 

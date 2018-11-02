@@ -1,7 +1,6 @@
 ---
 sectionclass: h1
 sectionid: content
-is-parent: yes
 title: Content
 number: 3000
 ---
